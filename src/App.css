@@ -1,3 +1,4 @@
+/*App.css*/
 .App {
   text-align: center;
 }
@@ -5,9 +6,19 @@
 .center {
   display: flex;
   justify-content: center;
+  z-index: 1;
 }
 
-.particles {
+
+.bg-bluesy {
+  background-color: #87a9cc;
+}
+
+.bluesy {
+  color: #87a9cc;
+}
+
+.tsparticles {
   position: fixed;
   top: 0;
   right: 0;

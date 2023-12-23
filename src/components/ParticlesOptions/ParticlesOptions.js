@@ -1,3 +1,4 @@
+//ParticlesOption.js
 const particlesOptions = {
   background: {
       color: {

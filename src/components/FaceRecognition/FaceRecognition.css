@@ -1,3 +1,4 @@
+/*FaceRecognition.css*/
 .bounding-box {
   position: absolute;
   box-shadow: 0 0 0 3px #149df2 inset;
@@ -6,3 +7,10 @@
   justify-content: center;
   cursor: pointer;
 }
+
+
+
+/*331.07135 188.084475 162.77639999999997 179.004885    style={{top: box.topRow, right: box.rightCol, bottom: box.bottomRow, left: box.leftCol}}*/ 
+
+ 
+ 
