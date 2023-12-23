@@ -134,8 +134,13 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({ IMAGE_URL: this.state.input }, () => {
+<<<<<<< HEAD
       requestOptions.body = Raw(this.state.IMAGE_URL);
   
+=======
+      console.log(requestOptions);
+      requestOptions.body = Raw(this.state.IMAGE_URL);
+>>>>>>> 7485eee6a2e2abfc86d8032ea92e9c1451a82c0b
       fetch("https://api.clarifai.com/v2/models/" + MODEL_ID + "/versions/" + MODEL_VERSION_ID + "/outputs", requestOptions)
         .then(response => response.json())
         .then(response => {
@@ -162,7 +167,10 @@ class App extends Component {
     });
   }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7485eee6a2e2abfc86d8032ea92e9c1451a82c0b
 
 
   particlesInit = async (engine) => {
